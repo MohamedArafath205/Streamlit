@@ -11,7 +11,7 @@ st.title('Rock or Mine Prediction')
 
 input_ = st.text_input("Enter the values ")
 
-final = ''
+model_predct = ''
 
 input_array = np.asarray(input_)
 
