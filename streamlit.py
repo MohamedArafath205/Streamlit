@@ -14,6 +14,7 @@ input_data = st.text_input("Enter the values ")
 import numpy as np
 input_data_array = np.asarray(input_data)
 input = input_data_array.reshape(1,-1)
-prediction = model.predict(input)
+if st.button('Prediction'):
+    prediction = model.predict(input)
     
 st.success(prediction)
