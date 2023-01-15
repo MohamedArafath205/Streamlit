@@ -22,6 +22,8 @@ input_np = np.array(input_list)
 # Reshape array to (1,-1) format
 output_np = input_np.reshape(1,-1)
 
+prediction = ''
+
 if st.button('Predict'):
     model_predict = model.predict(output_np)
     
