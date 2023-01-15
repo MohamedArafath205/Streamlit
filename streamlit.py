@@ -13,7 +13,7 @@ input_ = st.text_input("Enter the values ")
 
 final = ''
 
-input_array = input.asarray(input_)
+input_array = np.asarray(input_)
 
 input_np = input_array.reshape(1,-1)
 
