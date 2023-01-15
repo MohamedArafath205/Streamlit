@@ -12,10 +12,8 @@ input_ = st.text_input("Enter the values ")
 
 final = ''
 
-input_np = input_.resize(1,-1)
-
 if st.button('Predict'):
-    model_predict = model.predict(input_np)
+    model_predict = model.predict([input_])
     
     if (model_predict[0]=='M'):
         prediction = 'Mine'
