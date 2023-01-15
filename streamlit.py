@@ -12,12 +12,16 @@ input_ = st.text_input("Enter the values ")
 
 final = ''
 
-if st.button('Predict'):
-    model_predict = model.predict(input_)
-    
-    if (model_predict[0]=='M'):
-        prediction = 'Mine'
-    else :
-        prediction = 'Rock'
+input_array = input.asarray(input_)
 
+input_np = input_array.reshape(1,-1)
+
+if st.button('Predict'):
+    model_predict = model.predict(input_np)
+    
+    if(model_predict[0] == 'M'):
+        prediction = 'Mine'
+    else:
+        prediction = 'Rock'
+    
 st.success(prediction)
