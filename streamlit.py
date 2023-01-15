@@ -20,9 +20,4 @@ input_np = input_array.reshape(1,-1)
 if st.button('Predict'):
     model_predict = model.predict(input_np)
     
-    if(model_predict[0] == 'M'):
-        prediction = 'Mine'
-    else:
-        prediction = 'Rock'
-    
-st.success(prediction)
+st.success(model_predict)
