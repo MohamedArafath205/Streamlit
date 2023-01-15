@@ -1,0 +1,5 @@
+pickle
+streamlit==1.2.0
+streamlit-option-menu==0.3.2
+scikit-learn
+pandas
