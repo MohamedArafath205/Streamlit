@@ -14,7 +14,7 @@ st.title('Rock or Mine Prediction')
 input_array = st.text_input("Enter the elements of the array, separated by commas: ")
 
 # Convert input string to list of integers
-input_list = [float(x) for x in input_array.split(",")]
+input_list = [float(x) for x in input_array]
 
 # Convert list to numpy array
 input_np = np.array(input_list)
