@@ -11,7 +11,7 @@ st.title('Rock or Mine Prediction')
 
 
 # Get input array from user
-input_array = st.text_input("Enter the elements of the array, separated by commas: ")
+input_array = st.text_input("Enter the 59 values seperated by commas")
 
 # Convert input string to list of integers
 input_list = np.fromstring(input_array, dtype=float, sep=',')
