@@ -15,6 +15,5 @@ import numpy as np
 input_data_array = np.asarray(input_data)
 input = input_data_array.reshape(1,-1)
 prediction = model.predict(input)
-print(prediction)
     
-st.success(model_predict)
+st.success(prediction)
