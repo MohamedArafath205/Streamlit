@@ -34,8 +34,8 @@ if st.button('Predict'):
     
 st.success(prediction)
 
-st.text("This model has 75% accuracy rate")
+st.markdown("<h6 style='text-align: center'>This model has 75% accuracy rate</h6>", unsafe_allow_html=True)
 
-st.text("Visit my github for the source code")
+st.markdown("<h6 style='text-align: center'>Visit my github</h6>", unsafe_allow_html=True)
 
 st.markdown("<h6 style='text-align: center'>https://github.com/MohamedArafath205/Streamlit</h6>", unsafe_allow_html=True)
