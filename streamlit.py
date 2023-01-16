@@ -34,7 +34,7 @@ if st.button('Predict'):
     
 st.success(prediction)
 
-st.markdown("<h6 style='text-align: center'>This model has 75% accuracy rate</h6>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-align: center; bottom: 0;'>This model has 75% accuracy rate</h6>", unsafe_allow_html=True)
 
 st.markdown("<h6 style='text-align: center'>Visit my github</h6>", unsafe_allow_html=True)
 
