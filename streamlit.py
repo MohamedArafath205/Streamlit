@@ -34,4 +34,8 @@ if st.button('Predict'):
     
 st.success(prediction)
 
-st.text("This model has a 75% accuracy rate")
+st.text("This model has 75% accuracy rate")
+
+st.text("Visit my github for the source code")
+
+st.text()
