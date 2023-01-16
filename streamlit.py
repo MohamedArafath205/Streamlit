@@ -38,4 +38,4 @@ st.text("This model has 75% accuracy rate")
 
 st.text("Visit my github for the source code")
 
-st.text()
+st.text("https://github.com/MohamedArafath205/Streamlit")
