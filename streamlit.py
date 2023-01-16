@@ -33,3 +33,5 @@ if st.button('Predict'):
         prediction = 'Rock'
     
 st.success(prediction)
+
+st.text("This model has a 75% accuracy rate")
